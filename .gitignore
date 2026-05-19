@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtualenv
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data / artifacts (raw data and model runs are not versioned)
+data/raw/
+data/*/rolling_fit*.npz
+data/*/fig_*.png
+memory/
+
+# IDE
+.vscode/
+.idea/
